@@ -2,7 +2,9 @@ package br.com.leonardo.domain;
 
 import java.util.Objects;
 
-public class Cliente {
+import br.com.leonardo.dao.ClienteMapDAO;
+
+public class Cliente extends ClienteMapDAO {
 
 	private String nome;
 	private Long cpf;
